@@ -11,7 +11,8 @@
   */
   --accent-color: #ff8dcb;
   --title-color: #ffc2e6;
-  --background-color: #353430;
+  --background-color: #fff1f7;
+  --subtitle-color: #353430;
   --text-color: #353430;
   --menu-color: #353430;
   --menu-color-rgb: rgb(53, 52, 48, 0.4);
@@ -24,7 +25,8 @@
     /* Дублируем переменные светлой темы */
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
-    --background-color: #353430;
+    --background-color: #fff1f7;
+    --subtitle-color: #353430;
     --text-color: #353430;
     --menu-color: #353430;
     --menu-color-rgb: rgb(53, 52, 48, 0.4);
