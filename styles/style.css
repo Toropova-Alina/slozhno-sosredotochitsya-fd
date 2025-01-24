@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  overflow-x: hidden;
 }
 
 .header {
@@ -359,10 +358,11 @@
   }
 
   .header__theme-menu-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr min-content 1fr;
     grid-template-rows: 1fr;
+    gap: 11px;
     justify-items: center;
-    margin: 21px 397px;
+    margin: 21px 0px;
   }
 
   .title {
