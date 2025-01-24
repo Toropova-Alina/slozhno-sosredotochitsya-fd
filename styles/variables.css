@@ -12,10 +12,13 @@
   --line-height-menu: 18px;
   --line-height-text: 23.4px;
   --line-height-decor: 25px;
-  --line-height-title: 95.7px;
+  --line-height-title-mobile: 95.7px;
+  --line-height-title-tablet: 99px;
+  --line-height-title-desktop: 129.53px;
 
   --accent-color: #ff0070;
   --title-color: #db00ff;
+  --section-title-color: #ff0070;
   --background-color: #000028;
   --subtitle-color: #000028;
   --text-color: #f1b2ce;

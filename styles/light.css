@@ -11,6 +11,7 @@
   */
   --accent-color: #ff8dcb;
   --title-color: #ffc2e6;
+  --section-title-color: #353430;
   --background-color: #fff1f7;
   --subtitle-color: #353430;
   --text-color: #353430;
@@ -25,6 +26,7 @@
     /* Дублируем переменные светлой темы */
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
+    --section-title-color: #353430;
     --background-color: #fff1f7;
     --subtitle-color: #353430;
     --text-color: #353430;
