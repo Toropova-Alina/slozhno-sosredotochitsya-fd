@@ -150,7 +150,7 @@
   padding: 10px 0 10px;
 }
 
-.section__column {
+.section__what {
   margin-block-end: 0;
 }
 
@@ -282,21 +282,21 @@
     padding: 40px 20px 19px;
   }
 
-  .section__right {
+  .section__why-how {
     display: grid;
     grid-template-columns: 236px 1fr;
     column-gap: 20px;
   }
 
-  .section__right .section__card {
+  .section__why-how .section__card {
     grid-column: 2;
   }
 
-  .section__column .section__main__title {
+  .section__what .section__main__title {
     max-inline-size: 236px;
   }
 
-  .section__column {
+  .section__what {
     margin-block-end: 2px;
   }
 
@@ -376,22 +376,22 @@
     margin: 112px 20px 0px 513px;
   }
 
-  .section__right {
+  .section__why-how {
     grid-template-columns: 315px 1fr;
   }
 
-  .section__column {
+  .section__what {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
   }
 
-  .section__column .section__main__title {
+  .section__what .section__main__title {
     max-inline-size: 315px;
     grid-row: 1;
   }
 
-  .section__column .section__card {
+  .section__what .section__card {
     grid-row: 2;
   }
 
