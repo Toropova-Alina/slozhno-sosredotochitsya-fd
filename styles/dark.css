@@ -21,6 +21,36 @@
   --background-img: url(../images/cover-image-dark.png);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Дублируем переменные светлой темы */
+    --accent-color: #ff0070;
+    --title-color: #db00ff;
+    --section-title-color: #ff0070;
+    --background-color: #000028;
+    --subtitle-color: #000028;
+    --text-color: #f1b2ce;
+    --menu-color: #ff0070;
+    --menu-color-rgb: rgb(255, 0, 112, 0.4);
+
+    --background-img: url(../images/cover-image-dark.png);
+  }
+  .decor::before {
+    content: "REC";
+  }
+
+  .decor::after {
+    content: "";
+  }
+}
+
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  .decor::before {
+    content: "REC";
+  }
+
+  .decor::after {
+    content: "";
+  }
 }

@@ -35,6 +35,14 @@
 
     --background-img: url(../images/cover-image-light.png);
   }
+  
+  .decor::before {
+    content: none;
+  }
+
+  .decor::after {
+    content: none;
+  }
 }
 
 .theme-light .page {
